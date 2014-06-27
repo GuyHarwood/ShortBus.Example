@@ -1,0 +1,10 @@
+﻿@model MvcShortBus.Models.HomeIndexModel
+
+<h2>Index</h2>
+
+<ul>
+	@foreach (var contact in Model.ActiveContacts)
+ {
+	<li>@contact.Name</li>
+ }
+</ul>
